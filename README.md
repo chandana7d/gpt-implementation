@@ -5,8 +5,11 @@
 
 This document provides a detailed description of a GPT-like model architecture, including each layer, its inputs and outputs, and key variables. The model is designed for natural language processing tasks such as text generation, summarization, and translation.
 
-## Table of Contents
+## GPT2 Architecture implemented
 
+![GPT2-architecture](gpt2_architecture.png)
+
+## Content
 1. [Architecture Overview](#architecture-overview)
 2. [Model Components](#model-components)
    - [Input Layer](#input-layer)
@@ -122,3 +125,6 @@ Each transformer block consists of several components:
 - `dropout_rate`: Dropout rate for regularization
 - `learning_rate`: Learning rate for the optimizer
 
+
+
+[def]: 'gpt2_architecture.png'
